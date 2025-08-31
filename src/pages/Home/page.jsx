@@ -20,10 +20,10 @@ const HomePage = () => {
           <img src={HomeLogo} alt="Hope for Childhood Logo" />
         </div>
         <div className="w-full my-3 md:my-0 md:w-2/3  md:py-2 pl-0 md:pl-10 flex flex-col justify-between">
-          <p className="inline-block text-3xl md:text-5xl font-bold text-amber-500">
+          <p className="w-fit p-3 bg-[#FFF6E2] inline-block text-3xl md:text-5xl font-bold text-amber-500">
             Who We Are
           </p>
-          <p className="mt-2 text-xl md:text-3xl text-gray-700">
+          <p className="mt-2 text-xl md:text-3xl text-[#004063]">
             This is our mission introduction. This is our mission introduction.
             This is our mission introduction. This is our mission introduction.
           </p>
@@ -40,10 +40,10 @@ const HomePage = () => {
           <img src={HomeSection1} alt="Section image" />
         </div>
         <div className="w-full my-3 md:my-0 md:w-2/3  md:py-2 pl-0 md:pl-10 flex flex-col justify-between">
-          <p className="inline-block text-3xl md:text-5xl font-bold text-amber-500">
+          <p className=" w-fit p-3 bg-[#FFF6E2] inline-block text-3xl md:text-5xl font-bold text-amber-500">
             What We Do
           </p>
-          <p className="mt-2 text-xl md:text-3xl text-gray-700">
+          <p className="mt-2 text-xl md:text-3xl text-[#004063]">
             This is our programs introduction. This is our programs
             introduction. This is our programs introduction. This is our
             programs introduction
@@ -61,17 +61,17 @@ const HomePage = () => {
           <img src={HomeSection2} alt="Section Image" />
         </div>
         <div className="w-full my-3 md:my-0 md:w-2/3  md:py-2 pl-0 md:pl-10 flex flex-col justify-between">
-          <p className="inline-block text-3xl md:text-5xl font-bold text-amber-500">
+          <p className="w-fit p-3 bg-[#FFF6E2] inline-block text-3xl md:text-5xl font-bold text-amber-500">
             Contact Us
           </p>
-          <div>
+          <div className="text-[#004063]">
             <div className="flex my-3 items-center flex-wrap">
               <img src={Instagram} alt="Instagram Logo" />
-              <p className="text-xl md:text-3xl text-gray-500 ml-2">@instagramaccount</p>
+              <p className="text-xl md:text-3xl ml-2">@instagramaccount</p>
             </div>
              <div className="flex my-3 items-center flex-wrap">
               <img src={LinkedIn} alt="Hope for Childhood Logo" />
-              <p className="text-xl md:text-3xl text-gray-500 ml-2">@linkedinaccount</p>
+              <p className="text-xl md:text-3xl ml-2">@linkedinaccount</p>
             </div>
           </div>
           <a
