@@ -27,7 +27,7 @@ const NavigationBar = () => {
     { name: "Homepage", href: "/", active: true },
     { name: "Our Programs", href: "/" },
     { name: "Our Team", href: "/" },
-    { name: "Contact Us", href: "/" },
+    { name: "Contact Us", href: "/contactus" },
   ];
   return (
     < div className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-gray-800/50`}>
